@@ -79,7 +79,6 @@ void task2() {
 	for (int i = 0; i < n; ++i) {  //заполн втору= точку
 		std::cin >> p2[i];
 	}
-	// Считаем и сразу выводим результат
 	double res = dist(p1, p2);
 	std::cout << "rasstoyanie mejdy tochkami: " << res << std::endl;
 }
